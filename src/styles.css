@@ -1,1 +1,56 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: deepskyblue;
+}
+
+.calculadora {
+  margin-top: 10%;
+}
+
+.pantalla {
+  border: 1px solid white;
+  text-align: right;
+  padding-right: 10px;
+  font-size: 22px;
+  background-color: white;
+}
+
+.container-teclado {
+  border: 1px solid darkgrey;
+  background-color: darkgrey;
+}
+
+.container-lateral {
+  border: 1px solid #66ebff;
+  background-color: #66ebff;
+}
+
+.btn-calculadora {
+  width: 25%;
+  height: 50px;
+  color: white;
+  background-color: darkgrey;
+  border-radius: 0%;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.btn-calculadora:hover {
+  color: white;
+  background-color: rgb(114, 114, 114);
+}
+
+.btn-lateral {
+  width: 25%;
+  height: 33, 3px;
+  color: white;
+  background-color: #66ebff;
+  border-radius: 0%;
+  border-radius: 5px;
+  font-size: 22px;
+}
+
+.btn-lateral:hover {
+  color: white;
+  background-color: #45e0f8;
+}
